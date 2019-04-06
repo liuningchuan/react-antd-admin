@@ -5,7 +5,6 @@
   "homepage": "https://liuningchuan.github.io/react-antd-admin",
   "dependencies": {
     "antd": "^3.16.1",
-    "history": "^4.9.0",
     "node-sass": "^4.11.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

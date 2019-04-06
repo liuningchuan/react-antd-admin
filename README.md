@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+#### React-Router
+
+使用**hashHistory**则url中会出现#号，使用**browserHistory**就可以解决；在react-router4中分别为HashRouter、BrowserHistory。
+
+```jsx
+import { HashRouter, BrowserRouter } from 'react-router-dom';
+```
+
+在使用Github gh-pages中发现，Github服务器对支持react-router的BrowserRouter有问题，改为HashRouter后一切正常。
+
 ## Available Scripts
 
 In the project directory, you can run:
