@@ -12,6 +12,7 @@ const FormItem = Form.Item;
 
 class Login extends Component {
 
+    // eslint-disable-next-line no-useless-constructor
     constructor(props) {
         super(props);
     }
@@ -23,9 +24,8 @@ class Login extends Component {
         e.preventDefault();
         this.props.form.validateFields((err, values) => {
             if (!err) {
-
-                if (values.email == "admin" && values.password == "admin"
-                    && values.captcha == "AAAA") {
+                if (values.email === "admin" && values.password === "admin"
+                    && values.captcha === "AAAA") {
                     message.success("登录成功!");
                 }
             }
