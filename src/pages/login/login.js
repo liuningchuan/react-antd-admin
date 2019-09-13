@@ -7,6 +7,7 @@ import React, { Component } from 'react';
 import { Form, Input, Icon, Checkbox, Row, Col, message, Button } from 'antd';
 
 import './login.scss';
+import VerifyCode from '../../components/VerifyCode/VerifyCode';
 
 const FormItem = Form.Item;
 
@@ -76,7 +77,7 @@ class Login extends Component {
                                         )}
                                         <div className="login-captcha">
                                             <div>
-                                                AAAA
+                                                <VerifyCode/>
                                             </div>
                                         </div>
                                     </Row>
