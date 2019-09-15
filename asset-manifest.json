@@ -1,16 +1,16 @@
 {
-  "main.css": "/react-antd-admin/static/css/main.bf06263b.chunk.css",
-  "main.js": "/react-antd-admin/static/js/main.da792d66.chunk.js",
-  "main.js.map": "/react-antd-admin/static/js/main.da792d66.chunk.js.map",
+  "main.css": "/react-antd-admin/static/css/main.16204847.chunk.css",
+  "main.js": "/react-antd-admin/static/js/main.fccba456.chunk.js",
+  "main.js.map": "/react-antd-admin/static/js/main.fccba456.chunk.js.map",
   "runtime~main.js": "/react-antd-admin/static/js/runtime~main.9ea20855.js",
   "runtime~main.js.map": "/react-antd-admin/static/js/runtime~main.9ea20855.js.map",
   "static/css/2.4f08e860.chunk.css": "/react-antd-admin/static/css/2.4f08e860.chunk.css",
-  "static/js/2.ac15b2d6.chunk.js": "/react-antd-admin/static/js/2.ac15b2d6.chunk.js",
-  "static/js/2.ac15b2d6.chunk.js.map": "/react-antd-admin/static/js/2.ac15b2d6.chunk.js.map",
+  "static/js/2.5f2d0d06.chunk.js": "/react-antd-admin/static/js/2.5f2d0d06.chunk.js",
+  "static/js/2.5f2d0d06.chunk.js.map": "/react-antd-admin/static/js/2.5f2d0d06.chunk.js.map",
   "index.html": "/react-antd-admin/index.html",
-  "precache-manifest.0129fde66b49c6c00190084e6e36f7f5.js": "/react-antd-admin/precache-manifest.0129fde66b49c6c00190084e6e36f7f5.js",
+  "precache-manifest.9e5f2586172f703c9d81c005f6e5acdd.js": "/react-antd-admin/precache-manifest.9e5f2586172f703c9d81c005f6e5acdd.js",
   "service-worker.js": "/react-antd-admin/service-worker.js",
   "static/css/2.4f08e860.chunk.css.map": "/react-antd-admin/static/css/2.4f08e860.chunk.css.map",
-  "static/css/main.bf06263b.chunk.css.map": "/react-antd-admin/static/css/main.bf06263b.chunk.css.map",
-  "static/media/Login.scss": "/react-antd-admin/static/media/container.1e53fbc6.png"
+  "static/css/main.16204847.chunk.css.map": "/react-antd-admin/static/css/main.16204847.chunk.css.map",
+  "static/media/Login.svg": "/react-antd-admin/static/media/Login.b29324c4.svg"
 }
