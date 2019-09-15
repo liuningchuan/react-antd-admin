@@ -1,0 +1,26 @@
+/**
+ * @author liubo
+ * @date 2018-08-30
+ * @description header style
+ */
+ .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: color .3s;
+  }
+  
+  .trigger:hover {
+    color: #108ee9;
+  }
+  
+  .logout{
+    padding: 0;
+  }
+  .logout span{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+  
