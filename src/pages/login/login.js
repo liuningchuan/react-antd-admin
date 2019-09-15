@@ -4,19 +4,14 @@
  * @description 登陆界面
  */
 import React, { Component } from 'react';
-import { Form, Input, Icon, Checkbox, Row, Col, message, Button } from 'antd';
+import { Form, Input, Icon, message, Button } from 'antd';
 
 import './login.scss';
-import VerifyCode from '../../components/VerifyCode/VerifyCode';
+import LoginPNG from '../../images/Login.svg';
 
 const FormItem = Form.Item;
 
 class Login extends Component {
-
-    // eslint-disable-next-line no-useless-constructor
-    constructor(props) {
-        super(props);
-    }
 
     /**
      * 提交登录
@@ -38,7 +33,10 @@ class Login extends Component {
         return (
             <div className="container">
                 <div className="login-container">
-                    <h4 className="login-text">登录</h4>
+                    <div className="login-text">
+                        <img alt="logo" width={48} height={48} src={LoginPNG}/>
+                        <span>Ant Design Admin</span>
+                    </div>
                     <Form onSubmit={this.handleSubmit}>
                         <FormItem>
                             {getFieldDecorator('email', {
@@ -56,11 +54,11 @@ class Login extends Component {
                                 <Input prefix={<Icon type="lock" />} type="password" placeholder="密码" />
                             )}
                         </FormItem>
-                        <Button htmlType="submit" type="primary">登录</Button>
+                        <Button style={{width:'100%'}} htmlType="submit" type="primary">登录</Button>
                     </Form>
                 </div>
                 <div className="footer">
-                    <div className="copyright">Copyright © 2017 Ant Design</div>
+                    <div className="copyright">Ant Design Admin © 2019 LiuNing</div>
                 </div>
             </div >
         );

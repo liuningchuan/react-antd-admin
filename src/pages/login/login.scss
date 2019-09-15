@@ -54,37 +54,24 @@ body{
 }
 
 .login-container{
-    width: 400px;
-    padding: 40px;
-    margin: 0 auto;
-    // background: #fff;
+    width: 320px;
+    height: 320px;
+    margin: auto auto;
+    padding: 36px;
     box-shadow: 0 0 100px rgba(0,0,0,.08);
     border-radius: 6px;
     .login-text{
-        color: rgba(0, 0, 0, 0.8);
-        font-size: 28px;
-        font-weight: 500;
-        text-align: center;
-    }
-}
-
-.login-captcha{
-    display: flex;
-    align-items: center;
-    div{
-        margin-left: 10px;
-        height: 32px;
-        width: 120px;
-        border: 1px solid #E5E6EA;
-        border-radius: 4px;
-        background-color: white;
         display: flex;
-        justify-content: space-around;
-        overflow: hidden;
-        img{
-            height: 32px;
-            width: 120px;
-            border-radius: 4px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 16px;
+        span{
+            margin-left: 10px;
+            vertical-align: text-bottom;
+            font-size: 16px;
+            display: inline-block;
+            font-weight: 700;
+            color: #1890ff;
         }
     }
 }
@@ -101,7 +88,7 @@ body{
 }
 .copyright{
     font-size: 14px;
-    color: #fff;
+    color: rgba(0,0,0,.45);
     line-height: 1.5;
     text-align: right;
 }
