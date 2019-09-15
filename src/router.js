@@ -4,7 +4,7 @@ import {
     HashRouter,
 } from 'react-router-dom';
 
-import Login from './pages/login/login'
+import Login from './pages/login'
 import Dashboard from './pages/dashboard';
 
 export default () => (

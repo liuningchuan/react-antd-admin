@@ -6,7 +6,7 @@
 import React, { Component } from 'react';
 import { Form, Input, Icon, message, Button } from 'antd';
 
-import './login.scss';
+import './index.scss';
 import LoginPNG from '../../images/Login.svg';
 
 const FormItem = Form.Item;
