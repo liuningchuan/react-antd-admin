@@ -5,6 +5,7 @@
   "homepage": "https://liuningchuan.github.io/react-antd-admin",
   "dependencies": {
     "antd": "^3.16.1",
+    "bizcharts": "^3.5.5",
     "node-sass": "^4.11.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
