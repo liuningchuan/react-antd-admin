@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import BaseLayout from '../../layouts/BaseLayout';
 import BasicColumn from '../../components/bizcharts/BasicColumn';
 import Labelline from '../../components/bizcharts/LabelLine';
+import EchartsTest from '../../components/echarts/BasicColumn';
 
 class Dashboard extends Component {
 
@@ -47,6 +48,7 @@ class Dashboard extends Component {
             <BaseLayout>
                 <BasicColumn data={this.data} />
                 <Labelline />
+                <EchartsTest />
             </BaseLayout>
         );
     }
