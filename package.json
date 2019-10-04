@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://liuningchuan.github.io/react-antd-admin",
   "dependencies": {
+    "@antv/data-set": "^0.10.2",
     "antd": "^3.16.1",
     "bizcharts": "^3.5.5",
     "node-sass": "^4.11.0",

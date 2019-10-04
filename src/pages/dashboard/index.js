@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import BaseLayout from '../../layouts/BaseLayout';
 import BasicColumn from '../../components/bizcharts/BasicColumn';
+import Labelline from '../../components/bizcharts/LabelLine';
 
 class Dashboard extends Component {
 
@@ -38,14 +39,14 @@ class Dashboard extends Component {
         {
             year: "1962 年",
             sales: 38
-        }
-        ];
+        }];
     }
 
     render() {
         return (
             <BaseLayout>
                 <BasicColumn data={this.data} />
+                <Labelline />
             </BaseLayout>
         );
     }
