@@ -53,10 +53,8 @@ class Labelline extends React.Component {
     return (
       <div>
         <Chart
-          height={window.innerHeight}
           data={dv}
           scale={cols}
-          padding={[80, 100, 80, 80]}
           forceFit
         >
           <Coord type="theta" radius={0.75} />
